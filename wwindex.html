@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Storage Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
+<script type="text/javascript" charset="utf-8">
+
+
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+
+        function PopUpBrowser() {
+            var ref = window.open('http://AcademyMusicGroup.com', '_blank', 'location=yes');
+            /*ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
+            ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
+            ref.addEventListener('exit', function() { alert(event.type); });*/ Depends on whether you need them or not ... 
+        }
+
+        </script>
+  </head>
+  <body>
+  <button onclick="PopUpBrowser();">PopUp</button>
+    <h1>Example</h1>
+    <p>SQLTransaction</p>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.studiafacile2.android"
+	version 	= "2.0">
+	<name>Studia Facile 2 </name>
+	<description>
+		questa è la descrizione per stidiafacile
+	</description>
+	<author href="http://teste.com"
+		email="teste@teste.com">
+		Pinco Pallino
+	</author>
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
+	<icon src="icon.png" gap:role="default" />
+ <preference name="stay-in-webview" value="true" />
+	<preference name="android-installLocation" value="preferExternal" />
+	<preference name="permissions" value="none" />
+	<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+<gap:plugin name="ChildBrowser" />
+<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.1" />
+<access origin="*" />
+	<plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+	<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+	<plugin name="Battery" value="org.apache.cordova.BatteryListener" />
+
+<plugin name="Storage" value="org.apache.cordova.Storage" />
+<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+
+
+
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
+
